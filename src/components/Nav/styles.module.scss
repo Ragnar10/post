@@ -1,0 +1,24 @@
+.nav {
+    width: fit-content;
+    height: fit-content;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin-right: 80px;
+
+            a {
+                font-family: DMSans_Medium, sans-serif;
+                font-size: var(--text-nav-font-size);
+                line-height: 30px;
+                color: var(--nav-color);
+            }
+        }
+
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+}

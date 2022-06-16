@@ -1,0 +1,14 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background: var(--primary-bgcolor);
+}
+
+.banner_bg {
+    width: 100%;
+    height: 726px;
+    background: url('../../theme/assets/images/main_bg.jpeg') no-repeat;
+    background-size: cover;
+}

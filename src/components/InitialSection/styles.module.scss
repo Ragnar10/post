@@ -1,0 +1,74 @@
+.initial_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--width-xl);
+    margin: 0 auto 97px;
+}
+
+.initial_section_title {
+    width: 100%;
+    margin-bottom: 46px;
+    font-size: var(--h1-font-size);
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.initial_section_info {
+    width: 80%;
+    margin: 0 auto 64px;
+    font-size: var(--text-font-size);
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.initial_section_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial_section_author {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.author_avatar {
+    width: 37px;
+    height: 37px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: url('../../theme/assets/images/reed_avatar.png') no-repeat;
+    background-size: cover;
+}
+
+.author_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: var(--text-xs-font-size);
+    line-height: 1;
+    letter-spacing: 1px;
+    color: var(--gray-light-color);
+
+    & span {
+        display: inline-block;
+    }
+
+    & span:last-child {
+        margin-top: 8px;
+        opacity: 0.5;
+    }
+}
+
+.initial_section_socials {
+    & li:nth-child(3),
+    & li:nth-child(4) {
+        display: none;
+    }
+}
+
+

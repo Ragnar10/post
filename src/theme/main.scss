@@ -7,6 +7,8 @@ html, body {
     font-family: Charter, sans-serif;
     font-style: normal;
     font-weight: normal;
+    background: var(--secondary-bgcolor);
+    color: var(--secondary-bgcolor);
     scroll-behavior: smooth;
     user-select: none;
 }
