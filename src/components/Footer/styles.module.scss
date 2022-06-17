@@ -55,6 +55,10 @@
         & li:last-child {
             display: none;
         }
+
+        & li:nth-child(3) {
+            margin-right: 0;
+        }
     }
 }
 
@@ -62,6 +66,10 @@
     & li > a {
         filter: invert(0) brightness(50%);
         -webkit-filter: invert(0) brightness(50%);
+    }
+
+    & li:nth-child(3) {
+        margin-right: 0;
     }
 
     & li:nth-child(n + 4) {
