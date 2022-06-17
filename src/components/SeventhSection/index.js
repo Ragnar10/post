@@ -13,6 +13,10 @@ const list = [
     { id: 2, name: 'Jane Cooper', avatar: jane_avatar },
     { id: 3, name: 'Courtney Henry', avatar: henry_avatar },
     { id: 4, name: 'Albert Flores', avatar: albert_avatar },
+    { id: 5, name: 'Darrell Steward', avatar: darel_avatar },
+    { id: 6, name: 'Jane Cooper', avatar: jane_avatar },
+    { id: 7, name: 'Courtney Henry', avatar: henry_avatar },
+    { id: 8, name: 'Albert Flores', avatar: albert_avatar },
 ];
 
 const HeaderSection = () => {
@@ -20,7 +24,7 @@ const HeaderSection = () => {
         <div className = { Styles.seventh_section_wrapper }>
             <h2 className = { Styles.seventh_section_title }>{ 'We are a group of researchers' }</h2>
             <p className = { Styles.seventh_section_info }>
-                { 'The topic of our research is the global logistics of the Russian army and its weaknesses. The topic of our research is the global logistics of the Russian army and its weaknesses.' }
+                { 'The topic of our research is the global logistics of the Russian army and its weaknesses. The topic of our research is the global logistics of the Russian army and its weaknesses.The topic of our research is the global logistics of the Russian army and its weaknesses.' }
             </p>
             <div className = { Styles.seventh_section_counters }>
                 <div className = { Styles.counters_wrapper }>
@@ -69,7 +73,7 @@ const ListSection = () => {
 const FooterSection = () => {
     return (
         <div className = { Styles.seventh_section_share }>
-            <h2 className = { Styles.share_title }>{ 'We are a group of researchers' }</h2>
+            <h3 className = { Styles.share_title }>{ 'Do you have information about global logistics of the Russian army and its weaknesses? Share with us' }</h3>
             <Socials class = { Styles.share_socials } />
         </div>
     );

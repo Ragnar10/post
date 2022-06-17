@@ -8,6 +8,7 @@ import ThirdSection from '../ThirdSection';
 import FourthSection from '../FourthSection';
 import FifthSection from '../FifthSection';
 import SixthSection from '../SixthSection';
+import SeventhSection from '../SeventhSection';
 
 
 const Main = () => {
@@ -20,6 +21,7 @@ const Main = () => {
                 <FourthSection />
                 <FifthSection />
                 <SixthSection />
+                <SeventhSection />
             </main>
             <Footer />
         </div>
