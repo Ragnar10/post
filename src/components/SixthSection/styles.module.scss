@@ -3,7 +3,7 @@
     flex-direction: column;
     width: var(--width-xl);
     height: fit-content;
-    margin: 0 auto 135px;
+    margin: 0 auto 130px;
 }
 
 .sixth_section_title {
@@ -60,9 +60,10 @@
         width: fit-content;
         margin-bottom: 20px;
         padding: 0 5px;
+        border-bottom: 2px solid var(--logo-bgcolor);
         font-size: var(--h3-font-size);
         line-height: 1.4;
-        background: var(--primary-bgcolor);
+        color: var(--primary-color);
     }
 
     & > p {

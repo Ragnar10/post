@@ -65,6 +65,12 @@
 }
 
 .initial_section_socials {
+    & li > a {
+        filter: invert(100%);
+        -webkit-filter: invert(100%);
+        opacity: 0.4;
+    }
+
     & li:nth-child(3),
     & li:nth-child(4) {
         display: none;

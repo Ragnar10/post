@@ -27,12 +27,12 @@
     width: 40%;
     height: fit-content;
     padding-left: 32px;
-    border-left: 2px solid var(--primary-bgcolor);
+    border-left: 2px solid var(--logo-bgcolor);
     color: var(--primary-color);
 
     & > blockquote {
         width: 100%;
-        margin-bottom: 16px;
+        margin-bottom: 26px;
         font-size: var(--h3-font-size);
         line-height: 36px;
     }

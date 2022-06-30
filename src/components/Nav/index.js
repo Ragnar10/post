@@ -9,13 +9,13 @@ const Nav = (props) => {
                     <a href = { '#' }>{ 'About' }</a>
                 </li>
                 <li>
-                    <a href = { '#' }>{ 'Research' }</a>
+                    <a href = { '#research' }>{ 'Research' }</a>
                 </li>
                 <li>
                     <a href = { '#' }>{ 'Investigation' }</a>
                 </li>
                 <li>
-                    <a href = { '#' }>{ 'Contact us' }</a>
+                    <a href = { '#contact_us' }>{ 'Contact us' }</a>
                 </li>
             </ul>
         </nav>

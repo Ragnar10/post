@@ -1,0 +1,107 @@
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.contact_us_title {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 8px;
+    font-size: var(--h2-font-size);
+    line-height: 61px;
+    font-weight: 700;
+}
+
+.contact_us_info {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 39px;
+    font-size: var(--text-font-size);
+    line-height: 32px;
+}
+
+.contact_us_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.form_label {
+    align-self: flex-start;
+    margin-bottom: 8px;
+    font-size: var(--text-sm-font-size);
+    line-height: 22px;
+}
+
+.form_field {
+    width: 440px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border: 1px solid #656565;
+    outline: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: var(--text-sm-font-size);
+    line-height: 24px;
+    background: transparent;
+
+    &::placeholder {
+        color: #8C8C8C;
+    }
+}
+
+select.form_field {
+    width: 440px;
+    height: 40px;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border: 1px solid #656565;
+    outline: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: var(--text-sm-font-size);
+    line-height: 24px;
+    color: var(--secondary-bgcolor);
+    background: transparent;
+    webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea.form_field {
+    width: 440px;
+    height: 60px;
+    margin-bottom: 32px;
+    padding: 8px 12px;
+    border: 1px solid #656565;
+    outline: none;
+    border-radius: 6px;
+    font-size: var(--text-sm-font-size);
+    line-height: 24px;
+    resize: none;
+
+    &::placeholder {
+        color: #8C8C8C;
+    }
+}
+
+.form_send_btn {
+    width: 440px;
+    height: 48px;
+    padding: 13px 16px;
+    border: none;
+    outline: none;
+    border-radius: 42px;
+    font-size: var(--text-font-size);
+    line-height: 22px;
+    color: var(--secondary-bgcolor);
+    background: var(--logo-bgcolor);
+    cursor: pointer;
+}
